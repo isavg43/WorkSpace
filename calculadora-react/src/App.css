@@ -1,0 +1,25 @@
+App.css
+body {
+  background-color: #dbeafe;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 5px;
+}

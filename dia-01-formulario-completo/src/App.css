@@ -32,17 +32,19 @@
 }
 
 label,
-legend {
-  font-weight: 600;
-  color: #111827;
-}
-
-input,
-select,
-textarea,
+  button {
+    border: none;
+    background: linear-gradient(135deg, #ffb6c1, #fbcfe8);
+    color: #2b0214;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.14s ease, box-shadow 0.14s ease;
+    box-shadow: 0 6px 18px rgba(251, 207, 232, 0.4);
+  }
 button {
-  font: inherit;
-  border-radius: 10px;
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(251, 207, 232, 0.45);
   border: 1px solid #d1d5db;
   padding: 0.8rem 0.9rem;
 }
@@ -50,7 +52,7 @@ button {
 input:focus,
 select:focus,
 textarea:focus {
-  outline: 2px solid #818cf8;
+  outline: 2px solid var(--accent-weak);
   outline-offset: 2px;
 }
 
